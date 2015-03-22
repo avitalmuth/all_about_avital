@@ -107,46 +107,86 @@ body {
   font-size:6em;
   text-transform:uppercase;
 }  
-.introduction-section,
-.location-section,
-.questions-section, {
+.introduction-section {
   max-width: 38em;
   margin-left: auto;
-  margin-rght:auto;
+  margin-right:auto;
 }
 .content-footer,
-.introduction-section,
-.location-section,
-.questions-section, {
-  max-width:38em;
+.introduction-section {
+  max-width:auto;
   margin-left:auto;
   margin-right:auto;
-  margin-top:2em;
+  margin-top:auto;
 }
 .social > li {
   display:inline-block;
   font-size:1.7em;
 }
-.introduction > p, .location > p, .content-footer > p {
- /* Typography declarations*/
+
+p {
   font-weight:300;
   letter-spacing:0.05em;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 h2 {
   font-family: "Gentium Book Basic", Georgia, serif;
-font-size: 1.2em;
-    font-weight: bold;
+  font-size: 1.2em;
+  font-weight: bold;
   margin:2em 0 1em 0;
   color:#33FF66;
 }
+
 .content-footer {
   /* red, green, blue: #rrggbb */
   background-color:#FF6699;
   padding: 0.625rem 0;
 }
-h1 {
+.introduction-section > h1 {
   color:#FF00FF;
+  font-size: 3em;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
 }
+
+.portfolio {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+.portfolio .content {
+    margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+.portfolio h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+.portfolio .devices > li {
+    width: 33.3333333%;
+    float:left;
+}
+.portfolio .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+.portfolio .devices p {
+    font-weight: 300;
+    font-size: 1.313rem;
+}
+
+
+
+
+
 @media only screen and (max-width: 500px) {
     .masthead {
         padding: 3em 0;
