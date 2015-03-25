@@ -99,6 +99,7 @@ body {
   margin-bottom: 0.1em;
   font-family:"gentium book basic", georgia, serif;
   font-size:2em;
+  padding-bottom: 0.3em;
 }
 .masthead-heading {
   margin-top: -0.2em;
@@ -170,7 +171,7 @@ h2 {
     font-weight: 300;
 }
 .portfolio .devices > li {
-    width: 33.3333333%;
+    width: 50%;
     float:left;
 }
 .portfolio .devices h3 {
